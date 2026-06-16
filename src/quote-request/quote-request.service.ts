@@ -2,7 +2,7 @@ import { Injectable, Logger } from '@nestjs/common';
 import { PrismaService } from '../prisma.service';
 import { CreateQuoteRequestDto } from './dto/create-quote-request.dto';
 import { ConfigService } from '@nestjs/config';
-import { QuoteRequest } from '@generated/client';
+import { QuoteRequest } from '@prisma/client';
 
 @Injectable()
 export class QuoteRequestService {

@@ -15,7 +15,7 @@ import {
 import { QuoteRequestService } from './quote-request.service';
 import { CreateQuoteRequestDto } from './dto/create-quote-request.dto';
 import { UpdateQuoteRequestDto } from './dto/update-quote-request.dto';
-import { QuoteRequest } from '@generated/client';
+import { QuoteRequest } from '@prisma/client';
 
 @Controller('quote-requests')
 export class QuoteRequestController {
